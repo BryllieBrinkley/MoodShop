@@ -1,0 +1,28 @@
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.page-header {
+  display: flex;3
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgreen;
+}
+
+.page-header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-style: Helvetica;
+}
+
+.page-header a{
+  font-style: Helvectica;
+  display: block;
+  padding:0.5em;
+  text-decoration:none;
+}
